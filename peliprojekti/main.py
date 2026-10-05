@@ -135,11 +135,11 @@ def game_over_sequence():
           time.sleep(1)
           print("And he does it. Not bad. Alright, you can go now.")
           time.sleep(2)
-    elif(30 > player.age >= 18 and player.gender == "female"):
+    elif(50 > player.age >= 30 and player.gender == "female"):
           time.sleep(1)
           print("And she does it. Not bad. Alright, you can go now.")
           time.sleep(2)
-    elif(30 > player.age >= 18 and player.gender == "other"):
+    elif(50 > player.age >= 30 and player.gender == "other"):
           time.sleep(1)
           print("And they do it. Not bad. Alright, you can go now.")
           time.sleep(2)
